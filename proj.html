@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekty - OAMB</title>
+    <link rel="stylesheet" href="./res/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/65c12c5d77.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="./res/img/favicon.1.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <div class="header-center">
+          <div class="mainname">
+            <a class="mainname" href="index.html"
+              ><img src="./res/img/logo.png" id="logo" />
+              <div class="title-v">Obchodní akademie Mladá Boleslav</div>
+              <div class="title-m">Obchodní akademie MB</div>
+              <div class="title-s">OAMB</div></a
+            >
+          </div>
+          <div class="img-canvas">
+            <div class="wrapper-imgs">
+              <div class="slider-imgs">
+                <img src="./res/img/uvod.jpg" alt="img1" class="img" />
+                <img src="./res/img/uvod2.jpg" alt="img2" class="img" />
+                <!--<img src="./res/img/uvod3.jpg" alt="img3" class="img" />-->
+              </div>
+              <div class="slider-nav">
+                <a id="nav-img1"></a>
+                <a id="nav-img2"></a>
+                <!--<a id="nav-img3"></a>-->
+              </div>
+            </div>
+          </div>
+          <nav>
+            <div class="mainmenu">
+              <a class="mainmenu-a active" href="index.html"
+                ><div class="mainmenu-div">Obchodní akademie</div></a
+              >
+              <a class="mainmenu-a active" href="jazykkurz.html"
+                ><div class="mainmenu-div">Jazykové kurzy</div></a
+              >
+              <a class="mainmenu-a active" href="kontakty.html"
+                ><div class="mainmenu-div">Kontakty</div></a
+              >
+              <!--<a class="mainmenu-a active" href="#"
+                  ><div class="mainmenu-div">Maturita</div></a
+                >-->
+            </div>
+            <div class="mainmenu-mobile">
+              <div id="mainmenu-activate">=</div>
+              <div id="mainmenu-moving">
+                <a class="mainmenu-a active" href="index.html"
+                  ><div class="mainmenu-div">Obchodní akademie</div></a
+                >
+                <a class="mainmenu-a active" href="jazykkurz.html"
+                  ><div class="mainmenu-div">Jazykové kurzy</div></a
+                >
+                <a class="mainmenu-a active" href="kontakty.html"
+                  ><div class="mainmenu-div">Kontakty</div></a
+                >
+                <!--<a class="mainmenu-a active" href="#"
+                  ><div class="mainmenu-div">Maturita</div></a
+                >-->
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div id="container-text">
+        <canvas></canvas>
+        <div id="left-column">
+          <nav class="textmenu">
+            <div class="textmenu-nav-still">
+              <h3>Navigation</h3>
+            </div>
+            <a class="textmenu-a" href="https://www.office.com/"
+              ><div class="textmenu-div">Office 365</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/login.aspx"
+              ><div class="textmenu-div">Bakaláře</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/Timetable/public"
+              ><div class="textmenu-div">Rozvrh</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://www.facebook.com/oamladaboleslav/?fref=ts"
+              ><div class="textmenu-div">Facebook</div></a
+            >
+            <a class="textmenu-a" href="doc.html"
+              ><div class="textmenu-div">Dokumenty</div></a
+            >
+            <a class="textmenu-a" href="proj.html"
+              ><div class="textmenu-div">Projekty</div></a
+            >
+            <a class="textmenu-a" href="maturita.html"
+              ><div class="textmenu-div">Maturita</div></a
+            >
+            <a class="textmenu-a" href="obory.html"
+              ><div class="textmenu-div">Studijní obory, Přijímací řízení</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Učebnice</div></a
+            >-->
+            <a class="textmenu-a" href="oskole.html"
+              ><div class="textmenu-div">O škole</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box11</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box12</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box13</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box14</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box15</div></a
+            >-->
+          </nav>
+          <nav id="textmenu-nav-moving">
+            <div class="textmenu-nav-still">
+              <h3>Navigation</h3>
+            </div>
+            <a class="textmenu-a" href="https://www.office.com/"
+              ><div class="textmenu-div">Office 365</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/login.aspx"
+              ><div class="textmenu-div">Bakaláře</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/Timetable/public"
+              ><div class="textmenu-div">Rozvrh</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://www.facebook.com/oamladaboleslav/?fref=ts"
+              ><div class="textmenu-div">Facebook</div></a
+            >
+            <a class="textmenu-a" href="doc.html"
+              ><div class="textmenu-div">Dokumenty</div></a
+            >
+            <a class="textmenu-a" href="proj.html"
+              ><div class="textmenu-div">Projekty</div></a
+            >
+            <a class="textmenu-a" href="maturita.html"
+              ><div class="textmenu-div">Maturita</div></a
+            >
+            <a class="textmenu-a" href="obory.html"
+              ><div class="textmenu-div">Studijní obory, Přijímací řízení</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Učebnice</div></a
+            >-->
+            <a class="textmenu-a" href="oskole.html"
+              ><div class="textmenu-div">O škole</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box11</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box12</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box13</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box14</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box15</div></a
+            >-->
+          </nav>
+          <div id="textmenu-column-short">
+            <div class="textmenu-column-short-anim">
+              <div id="textmenu-active">
+                <i class="fa-sharp fa-solid fa-plus" id="plus"></i>
+                <i class="fa-sharp fa-solid fa-xmark" id="cross"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="right-column">
+          <h2 class="news-title">Projekty</h2>
+          <div class="container-rigcol">
+            <div class="news">
+              <div class="news-small-title">
+                <h3>
+                  Digitalizujeme školu – Realizace investice Národního plánu
+                  obnovy – komponenta 3.1
+                </h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  V rámci komponenty 3.1 Inovace ve vzdělávání v kontextu
+                  digitalizace investice přispívá na vybavení žáků digitálními
+                  technologiemi pro rozvoj jejich informatického myšlení a
+                  digitálních kompetencí a na prevenci digitální propasti.
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container">
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2022/02/logo_douc.png"
+                    ><img
+                      class="news-img"
+                      src="https://www.oamb.cz/wp-content/uploads/2022/02/logo_douc.png"
+                      alt="projekt1.jpg"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="news">
+              <div class="news-small-title">
+                <h3>
+                  Doučování žáků škol – Realizace investice 3.2.3 Národního
+                  plánu obnovy
+                </h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  Investice reaguje na potřebu podpory vzdělávání žáků
+                  ohrožených školním neúspěchem v reakci na nemožnost realizace
+                  prezenční výuky ve školách během pandemie covid-19.
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container">
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2022/02/logo_douc.png"
+                    ><img
+                      class="news-img"
+                      src="https://www.oamb.cz/wp-content/uploads/2022/02/logo_douc.png"
+                      alt="projekt2.jpg"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-rigcol">
+            <div class="news">
+              <div class="news-small-title">
+                <h3>
+                  EU peníze středním školám – Zkvalitnění výuky na Obchodní
+                  akademii
+                </h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  Od 1. 7. 2012 do 30. 6. 2014 byla OA, VOŠE a JŠ s právem SJZ
+                  Mladá Boleslav zapojena do projektu „EU peníze středním školám
+                  – Zkvalitnění výuky na Obchodní akademii“. Tento dvouletý
+                  projekt byl spolufinancován z ESF (EU) a ze státního rozpočtu
+                  ČR v rámci operačního programu Vzdělávání pro
+                  konkurenceschopnost. Cílem projektu bylo zkvalitnění výuky
+                  cizích jazyků a zkvalitnění výuky s využitím prostředků
+                  informačních technologií na obchodní akademii v Mladé
+                  Boleslavi.
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container">
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2019/08/projektzkvalit.jpg"
+                    ><img
+                      class="news-img"
+                      src="https://www.oamb.cz/wp-content/uploads/2019/08/projektzkvalit.jpg"
+                      alt="projekt3.jpg"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="news">
+                <div class="news-small-title">
+                  <h3>Zvýšení jazykových kompetencí na Obchodní akademii</h3>
+                </div>
+                <div class="news-author"></div>
+                <div class="news-text">
+                  <p>
+                    Od 1. 7. 2015 je OA, VOŠE a JŠ s právem SJZ Mladá Boleslav
+                    zapojena do projektu „Zvýšení jazykových kompetencí na
+                    Obchodní akademii“. Tento projekt je spolufinancován z ESF
+                    (EU) a ze státního rozpočtu ČR v rámci operačního programu
+                    Vzdělávání pro konkurenceschopnost. Cílem projektu je
+                    zkvalitnění výuky cizích jazyků na obchodní akademii v Mladé
+                    Boleslavi prostřednictvím zahraničních jazykových kurzů pro
+                    učitele a žáky.
+                  </p>
+                </div>
+                <div class="news-imgs">
+                  <div class="news-imgs-container">
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2019/08/projektzkvalit.jpg"
+                      ><img
+                        class="news-img"
+                        src="https://www.oamb.cz/wp-content/uploads/2019/08/projektzkvalit.jpg"
+                        alt="projekt8.jpg"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="container-rigcol">
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Projekt IKAP II</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  Od 1. 7. 2020 – 30. 6. 2023 je OA, VOŠE a JŠ s právem SJZ
+                  Mladá Boleslav jako spolupracující partner zapojena do
+                  projektu Implementace Krajského akčního plánu II Středočeského
+                  kraje, číslo projektu CZ.02.3.68/0.0/0.0/19_078/0017862.
+                </p>
+                <p>
+                  V rámci projektu byla škola vybavena prostředky IT,
+                  pedagogičtí pracovníci se účastní kurzů a seminářů.
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container">
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2020/11/Logolink_IKAP2.jpg"
+                    ><img
+                      class="news-img"
+                      src="https://www.oamb.cz/wp-content/uploads/2020/11/Logolink_IKAP2.jpg"
+                      alt="projekt5.jpg"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Projekt Obchodní akademie Mladá Boleslav 2018-2019</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  Od 1. 1. 2018 do 31. 12. 2019 byla OA, VOŠE a JŠ s právem SJZ
+                  Mladá Boleslav zapojena do projektu „Podpora škol formou
+                  projektů zjednodušeného vykazování – Šablony pro SŠ a VOŠ I –
+                  Projekt Obchodní akademie Mladá Boleslav 2018-2019“.
+                </p>
+                <p>
+                  Tento dvouletý projekt byl spolufinancován z ESF (EU) a ze
+                  státního rozpočtu ČR v rámci operačního programu Výzkum, vývoj
+                  a vzdělávání.
+                </p>
+                <p>
+                  Cílem projektu byla podpora osobnostně profesního rozvoje
+                  pedagogů prostřednictvím dalšího vzdělávání pedagogických
+                  pracovníků a podpora možností personálního posílení o školního
+                  psychologa. Dále byla podpořena spolupráce školy a
+                  zaměstnavatelů a doučování žáků ohrožených školním neúspěchem
+                  na obchodní akademii v Mladé Boleslavi.
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container">
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2019/08/logolinksablony3.jpg"
+                    ><img
+                      class="news-img"
+                      src="https://www.oamb.cz/wp-content/uploads/2019/08/logolinksablony3.jpg"
+                      alt="projekt5.jpg"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-rigcol">
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Projekt Obchodní akademie Mladá Boleslav 2020-2021</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  Od 1. 1. 2020 je OA, VOŠE a JŠ s právem SJZ Mladá Boleslav
+                  zapojena do projektu „Šablony pro SŠ a VOŠ II – Projekt
+                  Obchodní akademie Mladá Boleslav 2020-2021“.
+                </p>
+                <p>
+                  Tento dvouletý projekt je spolufinancován z ESF (EU) a ze
+                  státního rozpočtu ČR v rámci operačního programu Výzkum, vývoj
+                  a vzdělávání.
+                </p>
+                <p>
+                  Cílem projektu je podpora osobnostně profesního rozvoje
+                  pedagogů prostřednictvím dalšího vzdělávání pedagogických
+                  pracovníků a podpora možností personálního posílení o školního
+                  psychologa na obchodní akademii v Mladé Boleslavi.
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container">
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2019/08/logolinksablony3.jpg"
+                    ><img
+                      class="news-img"
+                      src="https://www.oamb.cz/wp-content/uploads/2019/08/logolinksablony3.jpg"
+                      alt="projekt6.jpg"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Projekt Obchodní akademie Mladá Boleslav 2022-2025</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  Od 1. 1. 2023 je OA a JŠ s právem SJZ Mladá Boleslav, p.o.
+                  zapojena do projektu „Šablony pro SŠ a VOŠ I – Projekt
+                  Obchodní akademie Mladá Boleslav 2022-2025“ (výzva č.
+                  02_22_003). Tento tříletý projekt je spolufinancován z EU a ze
+                  státního rozpočtu ČR v rámci operačního programu Jan Amos
+                  Komenský.
+                </p>
+                <p>
+                  Cílem projektu je přispět k zajištění rovného přístupu ke
+                  kvalitnímu a inkluzivnímu vzdělávání pro všechny žáky a
+                  studenty prostřednictvím podpůrných personálních pozic,
+                  vzdělávání pracovníků škol, vzájemného sdílení zkušeností,
+                  spolupráce a podpory zavádění inovativních metod výuky.
+                </p>
+                <p>
+                  Škola v rámci projektu realizuje šablony vedoucí k osobnostně
+                  profesnímu rozvoji pedagogů prostřednictvím dalšího vzdělávání
+                  pedagogických pracovníků a k personálnímu posílení o školního
+                  psychologa na obchodní akademii v Mladé Boleslavi.
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container">
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2023/02/logolinkJAK.png"
+                    ><img
+                      class="news-img"
+                      src="https://www.oamb.cz/wp-content/uploads/2023/02/logolinkJAK.png"
+                      alt="projekt7.jpg"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-rigcol">
+            <div class="news">
+                <div class="news-small-title">
+                  <h3>Modernizace školních vzdělávacích programů</h3>
+                </div>
+                <div class="news-author"></div>
+                <div class="news-text">
+                  <p>
+                    Modernizace školních vzdělávacích programů obchodních akademií
+                    zřizovaných Středočeským krajem – metodicko-materiální
+                    zajištění
+                  </p>
+  
+                  <p>
+                    Od roku 2009 do roku 2011 byla OA, VOŠE a JŠ s právem SJZ
+                    Mladá Boleslav jako partnerská škola zapojena do projektu
+                    „Modernizace školních vzdělávacích programů obchodních
+                    akademií zřizovaných Středočeským krajem –
+                    metodicko-materiální zajištění“. Projekt, který je
+                    spolufinancován z ESF (EU) a ze státního rozpočtu ČR v rámci
+                    operačního programu Vzdělávání pro konkurenceschopnost,
+                    realizuje Obchodní akademie Lysá nad Labem. Cílem projektu je
+                    zefektivnění probíhající reformy školství v České republice.
+                  </p>
+                  <p>
+                    Na projektu spolupracují následující obchodní akademie
+                    Středočeského kraje:
+                  </p>
+                  <p>
+                    - <a href="https://oakolin.eu/">Obchodní akademie Kolín</a>
+                  </p>
+                  <p>
+                    -
+                    <a href="https://www.oapb.cz/"
+                      >Obchodní akademie a Vyšší odborná škola Příbram</a
+                    >
+                  </p>
+                  <p>
+                    -
+                    <a href="https://www.oaslany.cz/index.php?type=Blog&id=31"
+                      >Obchodní akademie Dr. Edvarda Beneše Slaný</a
+                    >
+                  </p>
+                  <p>
+                    -
+                    <a href="https://moarako.cz/"
+                      >Masarykova obchodní akademie Rakovník</a
+                    >
+                  </p>
+                  <p>
+                    -
+                    <a href="https://www.oaspgsberoun.cz/"
+                      >Obchodní akademie a Střední pedagogická škola Beroun</a
+                    >
+                  </p>
+                  <p>
+                    -
+                    <a href="https://oalysa.cz/"
+                      >Obchodní akademie Lysá nad Labem</a
+                    >
+                  </p>
+                  <br />
+                  <p>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2019/08/SVP_OA_2014n.pdf"
+                      >Školní vzdělávací program Obchodní akademie 63-41-M/02</a
+                    >(pdf)
+                  </p>
+                  <p>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2019/08/SVP_EL_2014n.pdf"
+                      >Školní vzdělávací program Ekonomické lyceum 78-42-M/02</a
+                    >(pdf)
+                  </p>
+                </div>
+                <div class="news-imgs">
+                  <div class="news-imgs-container">
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2019/08/projektmodern_svp.jpg"
+                      ><img
+                        class="news-img"
+                        src="https://www.oamb.cz/wp-content/uploads/2019/08/projektmodern_svp.jpg"
+                        alt="projekt4.jpg"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div id="footer-div">
+          <div class="footer-div-OA">
+            <div class="footer-div-div">
+              <h3>O škole</h3>
+              <p>
+                Obchodní akademie a Jazyková škola s právem státní jazykové
+                zkoušky Mladá Boleslav, příspěvková organizace Úřední hodiny:
+              </p>
+              <p>po, st<time> 8:00-11:00 12:00-15:00</time></p>
+            </div>
+            <div class="footer-div-div">
+              <h3>Adresa</h3>
+              <p>
+                třída T. G. Masaryka 14 Mladá Boleslav III 293 01 Mladá Boleslav
+              </p>
+            </div>
+          </div>
+          <div class="footer-div-KB">
+            <div class="footer-div-div">
+              <h3>Kontakt</h3>
+              <div><span class="footer-bold">tel.: </span>+420 326 718 060</div>
+              <div><span class="footer-bold">e-mail: </span>info@oamb.cz (elektronická podatelna, OA, JŠ)</div>
+              <div><span class="footer-bold">e-mail: </span>oatmb@kr-s.cz (úřední korespondence)</div>
+              <div><span class="footer-bold">ID datové schránky: </span>x5iknmy</div>
+            </div>
+            <div class="footer-div-div"><h3>Powered by Prumka</h3></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./res/js/main.js"></script>
+  </body>
+</html>

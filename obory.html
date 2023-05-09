@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Obory - OAMB</title>
+    <link rel="stylesheet" href="./res/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/65c12c5d77.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="./res/img/favicon.1.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <div class="header-center">
+          <div class="mainname">
+            <a class="mainname" href="index.html"
+              ><img src="./res/img/logo.png" id="logo" />
+              <div class="title-v">Obchodní akademie Mladá Boleslav</div>
+              <div class="title-m">Obchodní akademie MB</div>
+              <div class="title-s">OAMB</div></a
+            >
+          </div>
+          <div class="img-canvas">
+            <div class="wrapper-imgs">
+              <div class="slider-imgs">
+                <img src="./res/img/uvod.jpg" alt="img1" class="img" />
+                <img src="./res/img/uvod2.jpg" alt="img2" class="img" />
+                <!--<img src="./res/img/uvod3.jpg" alt="img3" class="img" />-->
+              </div>
+              <div class="slider-nav">
+                <a id="nav-img1"></a>
+                <a id="nav-img2"></a>
+                <!--<a id="nav-img3"></a>-->
+              </div>
+            </div>
+          </div>
+          <nav>
+            <div class="mainmenu">
+              <a class="mainmenu-a active" href="index.html"
+                ><div class="mainmenu-div">Obchodní akademie</div></a
+              >
+              <a class="mainmenu-a active" href="jazykkurz.html"
+                ><div class="mainmenu-div">Jazykové kurzy</div></a
+              >
+              <a class="mainmenu-a active" href="kontakty.html"
+                ><div class="mainmenu-div">Kontakty</div></a
+              >
+              <!--<a class="mainmenu-a active" href="#"
+                  ><div class="mainmenu-div">Maturita</div></a
+                >-->
+            </div>
+            <div class="mainmenu-mobile">
+              <div id="mainmenu-activate">=</div>
+              <div id="mainmenu-moving">
+                <a class="mainmenu-a active" href="index.html"
+                  ><div class="mainmenu-div">Obchodní akademie</div></a
+                >
+                <a class="mainmenu-a active" href="jazykkurz.html"
+                  ><div class="mainmenu-div">Jazykové kurzy</div></a
+                >
+                <a class="mainmenu-a active" href="kontakty.html"
+                  ><div class="mainmenu-div">Kontakty</div></a
+                >
+                <!--<a class="mainmenu-a active" href="#"
+                  ><div class="mainmenu-div">Maturita</div></a
+                >-->
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div id="container-text">
+        <canvas></canvas>
+        <div id="left-column">
+          <nav class="textmenu">
+            <div class="textmenu-nav-still">
+              <h3>Navigation</h3>
+            </div>
+            <a class="textmenu-a" href="https://www.office.com/"
+              ><div class="textmenu-div">Office 365</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/login.aspx"
+              ><div class="textmenu-div">Bakaláře</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/Timetable/public"
+              ><div class="textmenu-div">Rozvrh</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://www.facebook.com/oamladaboleslav/?fref=ts"
+              ><div class="textmenu-div">Facebook</div></a
+            >
+            <a class="textmenu-a" href="doc.html"
+              ><div class="textmenu-div">Dokumenty</div></a
+            >
+            <a class="textmenu-a" href="proj.html"
+              ><div class="textmenu-div">Projekty</div></a
+            >
+            <a class="textmenu-a" href="maturita.html"
+              ><div class="textmenu-div">Maturita</div></a
+            >
+            <a class="textmenu-a" href="obory.html"
+              ><div class="textmenu-div">Studijní obory, Přijímací řízení</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Učebnice</div></a
+            >-->
+            <a class="textmenu-a" href="oskole.html"
+              ><div class="textmenu-div">O škole</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box11</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box12</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box13</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box14</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box15</div></a
+            >-->
+          </nav>
+          <nav id="textmenu-nav-moving">
+            <div class="textmenu-nav-still">
+              <h3>Navigation</h3>
+            </div>
+            <a class="textmenu-a" href="https://www.office.com/"
+              ><div class="textmenu-div">Office 365</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/login.aspx"
+              ><div class="textmenu-div">Bakaláře</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/Timetable/public"
+              ><div class="textmenu-div">Rozvrh</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://www.facebook.com/oamladaboleslav/?fref=ts"
+              ><div class="textmenu-div">Facebook</div></a
+            >
+            <a class="textmenu-a" href="doc.html"
+              ><div class="textmenu-div">Dokumenty</div></a
+            >
+            <a class="textmenu-a" href="proj.html"
+              ><div class="textmenu-div">Projekty</div></a
+            >
+            <a class="textmenu-a" href="maturita.html"
+              ><div class="textmenu-div">Maturita</div></a
+            >
+            <a class="textmenu-a" href="obory.html"
+              ><div class="textmenu-div">Studijní obory, Přijímací řízení</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Učebnice</div></a
+            >-->
+            <a class="textmenu-a" href="oskole.html"
+              ><div class="textmenu-div">O škole</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box11</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box12</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box13</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box14</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box15</div></a
+            >-->
+          </nav>
+          <div id="textmenu-column-short">
+            <div class="textmenu-column-short-anim">
+              <div id="textmenu-active">
+                <i class="fa-sharp fa-solid fa-plus" id="plus"></i>
+                <i class="fa-sharp fa-solid fa-xmark" id="cross"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="right-column">
+          <h2 class="news-title">Obory, Přijímací řízení, Učebnice</h2>
+          <div class="container-rigcol">
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Obchodní akademie</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>63-41-M/02 Obchodní akademie</p>
+
+                <h3>Školní vzdělávací program a učební plány</h3>
+                <p>
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2022/09/SVP_OA_D15.pdf"
+                    >Školní vzdělávací program Obchodní akademie 63-41-M/02 </a
+                  >(2. – 4. roč.)
+                </p>
+                <br />
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2022/09/SVP_OA_N2022.pdf"
+                    >Školní vzdělávací program Obchodní akademie 63-41-M/02 </a
+                  >(od 1. 9. 2022; 1.roč.)
+                </p>
+                <p>
+                  ŠVP v tištěné podobě je k nahlédnutí na sekretariátu školy.
+                </p>
+                <br />
+                <h3>Forma studia:</h3>
+                <br />
+                <p>denní (4 roky)</p>
+                <p>
+                  Ve školním roce 2021/2022 budou otevřeny 2 třídy (60 žáků).
+                </p>
+                <br />
+                <h3>Profilové předměty:</h3>
+                <ul>
+                  <li>cizí jazyky</li>
+                  <li>ekonomika</li>
+                  <li>účetnictví</li>
+                  <li>informační technologie</li>
+                  <li>písemná a elektronická komunikace</li>
+                  <li>matematika</li>
+                </ul>
+                <br />
+                <h3>Ukončování studia – maturitní zkouška</h3>
+                <ul>
+                  <li>viz menu Maturita</li>
+                </ul>
+                <br />
+                <h3>Profil absolventa</h3>
+                <p>
+                  Obchodní akademie je koncipována jako střední odborná škola
+                  obchodně podnikatelského zaměření, připravující absolventy na
+                  výkon různorodých činností spojených s podnikáním, dále v
+                  oblasti peněžnictví a v asistentsko-sekretářských činnostech.
+                </p>
+                <p>
+                  Škola vytváří a rozvíjí vlastnosti a dovednosti potřebné pro
+                  úspěšný výkon činností ve státních a soukromých podnicích, v
+                  obchodních společnostech, v družstvech a jiných právních
+                  formách podniku, ve sféře výroby, tuzemského i zahraničního
+                  obchodu, ve státní a veřejné správě aj.
+                </p>
+                <p>
+                  Škola připravuje též žáky pro studium na vyšších i vysokých
+                  školách.
+                </p>
+                <br />
+                <h3>Uplatnění absolventů</h3>
+                <ul>
+                  <li>peněžnictví a bankovnictví</li>
+                  <li>asistentsko-sekretářská činnost</li>
+                  <li>tuzemský a mezinárodní obchod</li>
+                  <li>cestovní ruch</li>
+                  <li>obecně podnikatelská činnost</li>
+                  <li>služby</li>
+                  <li>státní a veřejná správa</li>
+                </ul>
+                <br />
+                <h3>Charakteristika školy a její vybavení</h3>
+                <p>
+                  Obchodní akademie, Vyšší odborná škola ekonomická a Jazyková
+                  škola s právem státní jazykové zkoušky je státní škola s
+                  právní subjektivitou.
+                </p>
+                <p>
+                  Škola má celkem 27 dobře vybavených učeben, z toho 18
+                  odborných, zejména pro výuku informačních technologií, písemné
+                  a elektronické komunikace, ekonomických předmětů a cizích
+                  jazyků. Součástí školy je i Státní jazyková škola, kde
+                  studenti mohou studovat angličtinu a němčinu. Studentům je
+                  poskytována při studiu na jazykové škole studentská sleva. Na
+                  škole je možné skládat státní jazykové zkoušky.
+                </p>
+                <p>
+                  Škola nemá vlastní ubytovací a stravovací zařízení. Stravování
+                  a ubytování je studentům nabízeno ve spolupráci s ostatními
+                  středními školami v Mladé Boleslavi.
+                </p>
+                <p>
+                  <a
+                    href="https://www.oamb.cz/wp/oa/nabidka-ubytovacich-sluzeb/"
+                    >Nabídka ubytovacích služeb Domova mládeže při Střední
+                    zdravotnické škole Mladá Boleslav.</a
+                  >
+                </p>
+                <br />
+                <h3>Nadstandard školy</h3>
+                <ul>
+                  <li>bezbariérový přístup a pohyb po škole</li>
+                  <li>wifi dostupná v celé budově školy</li>
+                  <li>
+                    odborné učebny vybavené interaktivními tabulemi,
+                    dataprojektory
+                  </li>
+                  <li>služby školního psychologa</li>
+                  <li>možnost využívat fitness</li>
+                </ul>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container"></div>
+              </div>
+            </div>
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Ekonomické lyceum</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>78-42-M/02 Ekonomické lyceum</p>
+
+                <h3>Školní vzdělávací program a učební plány</h3>
+                <p>
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2022/09/SVP_EL_D16n.pdf"
+                    >Školní vzdělávací program Ekonomické lyceum 78-42-M/02 </a
+                  >(2. – 4. roč.)
+                </p>
+                <br />
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2022/09/SVP_EL_N2022.pdf"
+                    >Školní vzdělávací program Ekonomické lyceum 78-42-M/02 </a
+                  >(od 1. 9. 2022; 1.roč.)
+                </p>
+                <p>
+                  ŠVP v tištěné podobě je k nahlédnutí na sekretariátu školy.
+                </p>
+                <br />
+                <h3>Forma studia:</h3>
+                <br />
+                <p>denní (4 roky)</p>
+                <p>Ve školním roce 2021/2022 budou otevřeny 2 třídy.</p>
+                <br />
+                <h3>Profilové předměty:</h3>
+                <ul>
+                  <li>cizí jazyky</li>
+                  <li>ekonomika</li>
+                  <li>základy společenských věd</li>
+                  <li>informační technologie</li>
+                  <li>matematika</li>
+                </ul>
+                <br />
+                <h3>Ukončování studia – maturitní zkouška</h3>
+                <ul>
+                  <li>viz menu Maturita</li>
+                </ul>
+                <br />
+                <h3>Profil absolventa</h3>
+                <p>
+                  Lyceum spojuje typ gymnaziálního i odborného studia. Absolvent
+                  je po složení maturitní zkoušky připraven k vysokoškolskému
+                  studiu ekonomických, právních či jiných směrů. Cílem studia je
+                  usnadnění adaptace na požadavky studia na vysokých školách.
+                  Vzdělávací program je založen na širším všeobecně vzdělávacím
+                  základě. Součástí je i odborné vzdělávání v ekonomických
+                  disciplínách. Učivo obsahuje i složku výběrových odborných
+                  předmětů pro širší vzdělávací nabídku pro žáky. Tím jsou
+                  vytvořeny lepší předpoklady pro profesní rozhodování i
+                  prohloubení přípravy ke zvolení oboru dalšího studia.
+                </p>
+                <br />
+                <h3>Uplatnění absolventů</h3>
+                <ul>
+                  <li>další studium na vysokých a vyšších školách</li>
+                  <li>
+                    v praxi – při organizačních, poradenských a sekretářských
+                    činnostech
+                  </li>
+                  <li>vlastní podnikatelské aktivity</li>
+                </ul>
+                <br />
+                <h3>Charakteristika školy a její vybavení</h3>
+                <p>
+                  Obchodní akademie, Vyšší odborná škola ekonomická a Jazyková
+                  škola s právem státní jazykové zkoušky je státní škola s
+                  právní subjektivitou.
+                </p>
+                <p>
+                  Škola má celkem 27 dobře vybavených učeben, z toho 18
+                  odborných, zejména pro výuku informačních technologií, písemné
+                  a elektronické komunikace, ekonomických předmětů a cizích
+                  jazyků. Součástí školy je i Státní jazyková škola, kde
+                  studenti mohou studovat angličtinu a němčinu. Studentům je
+                  poskytována při studiu na jazykové škole studentská sleva. Na
+                  škole je možné skládat státní jazykové zkoušky.
+                </p>
+                <p>
+                  Škola nemá vlastní ubytovací a stravovací zařízení. Stravování
+                  a ubytování je studentům nabízeno ve spolupráci s ostatními
+                  středními školami v Mladé Boleslavi.
+                </p>
+                <p>
+                  <a
+                    href="https://www.oamb.cz/wp/oa/nabidka-ubytovacich-sluzeb/"
+                    >Nabídka ubytovacích služeb Domova mládeže při Střední
+                    zdravotnické škole Mladá Boleslav.</a
+                  >
+                </p>
+                <br />
+                <h3>Nadstandard školy</h3>
+                <ul>
+                  <li>bezbariérový přístup a pohyb po škole</li>
+                  <li>wifi dostupná v celé budově školy</li>
+                  <li>
+                    odborné učebny vybavené interaktivními tabulemi,
+                    dataprojektory
+                  </li>
+                  <li>služby školního psychologa</li>
+                  <li>možnost využívat fitness</li>
+                </ul>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container"></div>
+              </div>
+            </div>
+          </div>
+          <div class="container-rigcol">
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Informace pro uchazeče</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2021/08/char_skoly_OA_a_EL_2022-2023.pdf"
+                    >Charakteristika školy a vzdělávacích programů </a
+                  >(pdf)
+                </p>
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2021/11/letak_EL.pdf"
+                    >Informace o oboru Ekonomické lyceum</a
+                  >
+                </p>
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2021/11/letak_OA.pdf"
+                    >Informace o oboru Obchodní akademie</a
+                  >
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container"></div>
+              </div>
+            </div>
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Podmínky pro přijetí</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2021/08/krit%C3%A9ria2223.pdf"
+                    >Kritéria pro přijímání žáků do 1. roč. pro šk. rok
+                    2022/2023</a
+                  >
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container"></div>
+              </div>
+            </div>
+          </div>
+          <div class="container-rigcol">
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Výsledky přijímacího řízení</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>Výsledky přijímacího řízení pro šk. rok 2023/2024</p>
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2023/02/EL-2023-v%C3%BDsledky-web.pdf"
+                    >Ekonomické lyceum – výsledková listina</a
+                  >
+                </p>
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2023/02/OA-2023-v%C3%BDsledky-web.pdf"
+                    >Obchodní akademie – výsledková listina</a
+                  >
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container">
+                </div>
+              </div>
+            </div>
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Učebnice</h3>
+              </div>
+              <div class="news-author">
+              </div>
+              <div class="news-text">
+                <p><a href="https://www.oamb.cz/wp-content/uploads/2021/08/U%C4%8Debnice-pro-OA-2022-2023.pdf">Učebnice pro OA</a></p>
+                <p><a href="https://www.oamb.cz/wp-content/uploads/2021/08/U%C4%8Debnice-pro-EL-2022-2023.pdf">Učebnice pro EL</a></p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div id="footer-div">
+          <div class="footer-div-OA">
+            <div class="footer-div-div">
+              <h3>O škole</h3>
+              <p>
+                Obchodní akademie a Jazyková škola s právem státní jazykové
+                zkoušky Mladá Boleslav, příspěvková organizace Úřední hodiny:
+              </p>
+              <p>po, st<time> 8:00-11:00 12:00-15:00</time></p>
+            </div>
+            <div class="footer-div-div">
+              <h3>Adresa</h3>
+              <p>
+                třída T. G. Masaryka 14 Mladá Boleslav III 293 01 Mladá Boleslav
+              </p>
+            </div>
+          </div>
+          <div class="footer-div-KB">
+            <div class="footer-div-div">
+              <h3>Kontakt</h3>
+              <div><span class="footer-bold">tel.: </span>+420 326 718 060</div>
+              <div>
+                <span class="footer-bold">e-mail: </span>info@oamb.cz
+                (elektronická podatelna, OA, JŠ)
+              </div>
+              <div>
+                <span class="footer-bold">e-mail: </span>oatmb@kr-s.cz (úřední
+                korespondence)
+              </div>
+              <div>
+                <span class="footer-bold">ID datové schránky: </span>x5iknmy
+              </div>
+            </div>
+            <div class="footer-div-div"><h3>Powered by Prumka</h3></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./res/js/main.js"></script>
+  </body>
+</html>

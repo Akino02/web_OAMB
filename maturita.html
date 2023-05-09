@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maturita - OAMB</title>
+    <link rel="stylesheet" href="./res/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/65c12c5d77.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="./res/img/favicon.1.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <div class="header-center">
+          <div class="mainname">
+            <a class="mainname" href="index.html"
+              ><img src="./res/img/logo.png" id="logo" />
+              <div class="title-v">Obchodní akademie Mladá Boleslav</div>
+              <div class="title-m">Obchodní akademie MB</div>
+              <div class="title-s">OAMB</div></a
+            >
+          </div>
+          <div class="img-canvas">
+            <div class="wrapper-imgs">
+              <div class="slider-imgs">
+                <img src="./res/img/uvod.jpg" alt="img1" class="img" />
+                <img src="./res/img/uvod2.jpg" alt="img2" class="img" />
+                <!--<img src="./res/img/uvod3.jpg" alt="img3" class="img" />-->
+              </div>
+              <div class="slider-nav">
+                <a id="nav-img1"></a>
+                <a id="nav-img2"></a>
+                <!--<a id="nav-img3"></a>-->
+              </div>
+            </div>
+          </div>
+          <nav>
+            <div class="mainmenu">
+              <a class="mainmenu-a active" href="index.html"
+                ><div class="mainmenu-div">Obchodní akademie</div></a
+              >
+              <a class="mainmenu-a active" href="jazykkurz.html"
+                ><div class="mainmenu-div">Jazykové kurzy</div></a
+              >
+              <a class="mainmenu-a active" href="kontakty.html"
+                ><div class="mainmenu-div">Kontakty</div></a
+              >
+              <!--<a class="mainmenu-a active" href="#"
+                  ><div class="mainmenu-div">Maturita</div></a
+                >-->
+            </div>
+            <div class="mainmenu-mobile">
+              <div id="mainmenu-activate">=</div>
+              <div id="mainmenu-moving">
+                <a class="mainmenu-a active" href="index.html"
+                  ><div class="mainmenu-div">Obchodní akademie</div></a
+                >
+                <a class="mainmenu-a active" href="jazykkurz.html"
+                  ><div class="mainmenu-div">Jazykové kurzy</div></a
+                >
+                <a class="mainmenu-a active" href="kontakty.html"
+                  ><div class="mainmenu-div">Kontakty</div></a
+                >
+                <!--<a class="mainmenu-a active" href="#"
+                  ><div class="mainmenu-div">Maturita</div></a
+                >-->
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div id="container-text">
+        <canvas></canvas>
+        <div id="left-column">
+          <nav class="textmenu">
+            <div class="textmenu-nav-still">
+              <h3>Navigation</h3>
+            </div>
+            <a class="textmenu-a" href="https://www.office.com/"
+              ><div class="textmenu-div">Office 365</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/login.aspx"
+              ><div class="textmenu-div">Bakaláře</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/Timetable/public"
+              ><div class="textmenu-div">Rozvrh</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://www.facebook.com/oamladaboleslav/?fref=ts"
+              ><div class="textmenu-div">Facebook</div></a
+            >
+            <a class="textmenu-a" href="doc.html"
+              ><div class="textmenu-div">Dokumenty</div></a
+            >
+            <a class="textmenu-a" href="proj.html"
+              ><div class="textmenu-div">Projekty</div></a
+            >
+            <a class="textmenu-a" href="maturita.html"
+              ><div class="textmenu-div">Maturita</div></a
+            >
+            <a class="textmenu-a" href="obory.html"
+              ><div class="textmenu-div">
+                Studijní obory, Přijímací řízení
+              </div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Učebnice</div></a
+            >-->
+            <a class="textmenu-a" href="oskole.html"
+              ><div class="textmenu-div">O škole</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box11</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box12</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box13</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box14</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box15</div></a
+            >-->
+          </nav>
+          <nav id="textmenu-nav-moving">
+            <div class="textmenu-nav-still">
+              <h3>Navigation</h3>
+            </div>
+            <a class="textmenu-a" href="https://www.office.com/"
+              ><div class="textmenu-div">Office 365</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/login.aspx"
+              ><div class="textmenu-div">Bakaláře</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://bakalari.oamb.cz/bakaweb/Timetable/public"
+              ><div class="textmenu-div">Rozvrh</div></a
+            >
+            <a
+              class="textmenu-a"
+              href="https://www.facebook.com/oamladaboleslav/?fref=ts"
+              ><div class="textmenu-div">Facebook</div></a
+            >
+            <a class="textmenu-a" href="doc.html"
+              ><div class="textmenu-div">Dokumenty</div></a
+            >
+            <a class="textmenu-a" href="proj.html"
+              ><div class="textmenu-div">Projekty</div></a
+            >
+            <a class="textmenu-a" href="maturita.html"
+              ><div class="textmenu-div">Maturita</div></a
+            >
+            <a class="textmenu-a" href="obory.html"
+              ><div class="textmenu-div">
+                Studijní obory, Přijímací řízení
+              </div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Učebnice</div></a
+            >-->
+            <a class="textmenu-a" href="oskole.html"
+              ><div class="textmenu-div">O škole</div></a
+            >
+            <!--<a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box11</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box12</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box13</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box14</div></a
+            >
+            <a class="textmenu-a" href="#"
+              ><div class="textmenu-div">Box15</div></a
+            >-->
+          </nav>
+          <div id="textmenu-column-short">
+            <div class="textmenu-column-short-anim">
+              <div id="textmenu-active">
+                <i class="fa-sharp fa-solid fa-plus" id="plus"></i>
+                <i class="fa-sharp fa-solid fa-xmark" id="cross"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="right-column">
+          <h2 class="news-title">
+            Maturita
+            <div id="matyear"></div>
+          </h2>
+          <div class="container-rigcol">
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Obor obchodní akademie</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  Maturitní zkouška bude probíhat v souladu s platnou
+                  legislativou.
+                </p>
+
+                <p>
+                  <a
+                    href="https://www.oamb.cz/wp-content/uploads/2022/09/Maturita-OA-2022-2023n.pdf"
+                    >Maturita 2022/2023 – OA</a
+                  >
+                </p>
+                <br />
+                <h4>Společná část</h4>
+                <p>2 povinné předměty</p>
+                <ul>
+                  <li>Český jazyk – didaktický test</li>
+                  <li>Cizí jazyk nebo matematika – didaktický test</li>
+                </ul>
+                <p>max. 2 nepovinné předměty</p>
+                <h4>Profilová část</h4>
+                <ul>
+                  <li>
+                    Český jazyk – písemná práce a ústní zkouška (
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/CJL_Seznam_del.pdf"
+                      >seznam děl české a světové literatury k výběru pro ústní
+                      maturitní zkoušku z ČJ</a
+                    >
+                    )
+                  </li>
+                  <li>
+                    Cizí jazyk – písemná práce a ústní zkouška (<a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_ANJ_OA.doc"
+                      >anglický</a
+                    >,
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_NEJ_OA.doc"
+                      >německý</a
+                    >,
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_RUJ_OA.doc"
+                      >ruský</a
+                    >,
+                    <a
+                      href="http://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_SPJ_OA.doc"
+                      >španělský</a
+                    >)
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_EKO_OA.doc"
+                      >Ekonomika</a
+                    >
+                    – ústní zkouška
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_UCE_OA.doc"
+                      >Účetnictví</a
+                    >
+                    – ústní zkouška
+                  </li>
+                  <li>
+                    Praktická zkouška z odborných předmětů – písemná práce
+                  </li>
+                </ul>
+                <br />
+                <p>
+                  V rámci povinných zkoušek profilové části maturitní zkoušky
+                  žáci konají ústní zkoušky z ekonomiky a účetnictví, skládají
+                  praktickou maturitní zkoušku z odborných předmětů formou
+                  písemné práce v rozsahu 5ti hodin (šedesátiminutových), též
+                  písemnou práci a ústní zkoušku z českého a cizího jazyka.
+                </p>
+                <p>
+                  V rámci profilové části maturitní zkoušky mohou žáci konat
+                  max. 2 nepovinné zkoušky z:
+                </p>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_IKT_OA.doc"
+                      >Informační technologie</a
+                    >
+                    – ústní zkouška
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_MAT_OA.doc"
+                      >Matematika</a
+                    >
+                    – ústní zkouška
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_ANJ_OA.doc"
+                      >Anglický jazyk</a
+                    >
+                    – ústní zkouška
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_NEJ_OA.doc"
+                      >Německý jazyk</a
+                    >
+                    – ústní zkouška
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_SPJ_OA.doc"
+                      >Španělský jazyk</a
+                    >
+                    – ústní zkouška
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_RUJ_OA.doc"
+                      >Ruský jazyk</a
+                    >
+                    – ústní zkouška
+                  </li>
+                </ul>
+                <br />
+                <p>
+                  Nabídka zkoušek platí pro jarní i podzimní zkušební období.
+                </p>
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2022/09/Hodnocen%C3%AD-profil-OA-2022-2023.pdf"
+                    >Hodnocení maturitní zkoušky v profilové části školní rok
+                    2022/2023 – obor Obchodní akademie</a
+                  >
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container"></div>
+              </div>
+            </div>
+            <div class="news">
+              <div class="news-small-title">
+                <h3>Obor ekonomické lyceum</h3>
+              </div>
+              <div class="news-author"></div>
+              <div class="news-text">
+                <p>
+                  Maturitní zkouška bude probíhat v souladu s platnou
+                  legislativou.
+                </p>
+
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2022/09/Maturita-EL-2022-2023n.pdf"
+                    >Maturita 2022/2023 – EL</a
+                  >
+                </p>
+                <br />
+                <h4>Společná část</h4>
+                <p>2 povinné předměty</p>
+                <ul>
+                  <li>Český jazyk – didaktický test</li>
+                  <li>Cizí jazyk nebo matematika – didaktický test</li>
+                </ul>
+                <p>max. 2 nepovinné předměty</p>
+                <h4>Profilová část</h4>
+                <ul>
+                  <li>
+                    Český jazyk – písemná práce a ústní zkouška (
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/CJL_Seznam_del.pdf"
+                      >seznam děl české a světové literatury k výběru pro ústní
+                      maturitní zkoušku z ČJ</a
+                    >
+                    )
+                  </li>
+                  <li>
+                    Cizí jazyk – písemná práce a ústní zkouška (<a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_ANJ_OA.doc"
+                      >anglický</a
+                    >,
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_NEJ_OA.doc"
+                      >německý</a
+                    >,
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_RUJ_OA.doc"
+                      >ruský</a
+                    >,
+                    <a
+                      href="http://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_SPJ_OA.doc"
+                      >španělský</a
+                    >)
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_EKO_OA.doc"
+                      >Ekonomika</a
+                    >
+                    – ústní zkouška
+                  </li>
+                  <li>
+                    Praktická zkouška z odborných předmětů – písemná práce z
+                    ekonomiky a účetnictví nebo ze základů společenských věd
+                  </li>
+                </ul>
+                <br />
+                <p>
+                  Ústní zkouška z nabídky předmětů stanovené ředitelem školy:
+                </p>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_DEJ_EL.doc"
+                      >Dějepis,</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_MAT_OA.doc"
+                      >Matematika,</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_NEJ_OA.doc"
+                      >Německý jazyk,</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_SPJ_OA.doc"
+                      >Španělský jazyk,</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_ANJ_OA.doc"
+                      >Anglický jazyk,</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_RUJ_OA.doc"
+                      >Ruský jazyk,</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_IKT_EL.doc"
+                      >Informační a komunikační technologie,</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_UCE_EL.doc"
+                      >Účetnictví,</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.oamb.cz/wp-content/uploads/2022/09/mat_otazky_ZSV_EL.docx"
+                      >Základy společenských věd</a
+                    >
+                  </li>
+                </ul>
+                <br />
+                <p>
+                  V rámci povinných zkoušek profilové části maturitní zkoušky
+                  budou žáci ekonomického zaměření konat ústní maturitní zkoušku
+                  z ekonomiky, ústní zkoušku z nabídky předmětů stanovené
+                  ředitelem školy; žáci též konají praktickou maturitní zkoušku
+                  z odborných předmětů v rozsahu 4 hodin (šedesátiminutových),
+                  též písemnou práci a ústní zkoušku z českého a cizího jazyka.
+                </p>
+                <p>
+                  V rámci profilové části maturitní zkoušky mohou žáci konat
+                  nepovinnou zkoušku z informačních a komunikačních technologií,
+                  matematiky a cizího jazyka, a to za předpokladu, že předmět
+                  nezvolili v rámci volitelných předmětů společné části
+                  maturitní zkoušky. (max. 2 zkoušky)
+                </p>
+                <p>
+                  Nabídka zkoušek platí pro jarní i podzimní zkušební období.
+                </p>
+                <p>
+                  <a
+                    href="http://www.oamb.cz/wp-content/uploads/2022/09/Hodnocen%C3%AD-profil-EL-2022-2023.pdf"
+                    >Hodnocení maturitní zkoušky v profilové části školní rok
+                    2022/2023 – obor Ekonomické lyceum</a
+                  >
+                </p>
+              </div>
+              <div class="news-imgs">
+                <div class="news-imgs-container"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div id="footer-div">
+          <div class="footer-div-OA">
+            <div class="footer-div-div">
+              <h3>O škole</h3>
+              <p>
+                Obchodní akademie a Jazyková škola s právem státní jazykové
+                zkoušky Mladá Boleslav, příspěvková organizace Úřední hodiny:
+              </p>
+              <p>po, st<time> 8:00-11:00 12:00-15:00</time></p>
+            </div>
+            <div class="footer-div-div">
+              <h3>Adresa</h3>
+              <p>
+                třída T. G. Masaryka 14 Mladá Boleslav III 293 01 Mladá Boleslav
+              </p>
+            </div>
+          </div>
+          <div class="footer-div-KB">
+            <div class="footer-div-div">
+              <h3>Kontakt</h3>
+              <div><span class="footer-bold">tel.: </span>+420 326 718 060</div>
+              <div>
+                <span class="footer-bold">e-mail: </span>info@oamb.cz
+                (elektronická podatelna, OA, JŠ)
+              </div>
+              <div>
+                <span class="footer-bold">e-mail: </span>oatmb@kr-s.cz (úřední
+                korespondence)
+              </div>
+              <div>
+                <span class="footer-bold">ID datové schránky: </span>x5iknmy
+              </div>
+            </div>
+            <div class="footer-div-div"><h3>Powered by Prumka</h3></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./res/js/main.js"></script>
+    <script>
+      const matyear = document.getElementById("matyear");
+
+      const d = new Date();
+      let matyears = d.getFullYear();
+
+      matyear.innerHTML = `${matyears - 1}/${matyears}`;
+      console.log(matyears);
+    </script>
+  </body>
+</html>
