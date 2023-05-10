@@ -40,7 +40,7 @@
   justify-content: flex-start;
   align-items: center;
   font-size: 36px;
-  text-shadow: rgb(55, 0, 255) 1px 0 10px;
+  /*text-shadow: rgb(55, 0, 255) 1px 0 10px;*/
 }
 .title-v {
   display: block;
@@ -87,8 +87,27 @@
   transition: opacity ease 250ms;
   opacity: 0;
 }
-img:first-child{
+.first-img{
   opacity: 1;
+}
+.shadow{
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 500px;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.shadow img{
+  width: auto;
+  height: 90px;
+}
+.shadow div{
+  position: absolute;
+  top: 15px;
+  right: 15px;
 }
 .slider-nav {
   display: flex;
@@ -97,7 +116,7 @@ img:first-child{
   bottom: 1.25rem;
   left: 50%;
   transform: translateX(-50%);
-  z-index: 1;
+  z-index: 2;
 }
 .slider-nav #nav-img1,#nav-img2{
   width: 0.5rem;
